@@ -1,5 +1,5 @@
 
-import './Feedback.css';
+import './Feedback.css'
 
 const Feedback = () => {
   return (
@@ -28,11 +28,11 @@ const Feedback = () => {
           <span>Mentions</span>
         </div>
         <div className='action-button'>
-          <span>🗳️</span>
+          {/* <span>🗳️</span> */}
           <span>Polls</span>
         </div>
         <div className='action-button'>
-          <span>✅</span>
+          {/* <span>✅</span> */}
           <span>Resolve comments</span>
         </div>
       </div>
