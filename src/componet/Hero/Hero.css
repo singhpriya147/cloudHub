@@ -12,9 +12,10 @@ max-width: 85%;
 .hero-wrapper{
   position: relative;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
   align-items: center;
+  height: 100vh;
 }
 .hero-design{
   position: absolute;
@@ -41,21 +42,202 @@ max-width: 85%;
   width: 7em;
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 10rem;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index:10;
+}
+
+
+#design2{
+ height: 7em;
+  width: 7em;
+  position: absolute;
+  bottom: 5rem;
+  left: 5rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   z-index:10;
+}
+
+
+#design3{
+ height: 7em;
+  width: 7em;
+  position: absolute;
+  bottom: 8rem;
+  left: 15rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   z-index:10;
+}
+
+#design4{
+ height: 7em;
+  width: 7em;
+  position: absolute;
+  bottom: 0;
+  right: 10rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   z-index:10;
+}
+
+#design5{
+ height: 7em;
+  width: 7em;
+  position: absolute;
+  bottom: 5rem;
+  right: 8rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   z-index:10;
+}
+#design6{
+ height: 7em;
+  width: 7em;
+  position: absolute;
+  bottom: 8rem;
+  right: 15rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   z-index:10;
 }
 .right{
  width: 50%;
   position: absolute;
   right: 0;
-  top: 0;
+  
 }
 .left{
   width: 50%;
   position: absolute;
   left: 0;
-  top: 0;
+ 
+}
+@media (max-width:720px) {
+ #Herotext h1{
+ font-size: 2em;
+ }
+
+ #Herotext p{
+ font-size: 1em;
+ }
+
+
+
+ #middle{
+  height: 2em;
+  width: 2em;
+  top:unset
+}
+
+
+#design1{
+ height: 3em;
+  width: 3em;
+ 
+}
+
+
+#design2{
+ height: 3em;
+  width: 3em;
+
+}
+
+
+#design3{
+ height: 3em;
+  width: 3em;
+ 
+}
+
+#design4{
+ height: 3em;
+  width: 3em;
+
+}
+
+#design5{
+ height: 3em;
+  width: 3em;
+
+}
+#design6{
+ height: 3em;
+  width: 3em;
+
+}
+
+}
+
+
+@media (max-width:320px) {
+ #Herotext h1{
+ font-size:1.5em;
+ }
+
+  #Herotext p{
+ font-size:0.8em;
+ }
+
+  #middle{
+  height: 2em;
+  width: 2em;
+  top:unset
+}
+
+
+#design1{
+ height: 3em;
+  width: 3em;
+ 
+}
+
+
+#design2{
+ height: 3em;
+  width: 3em;
+
+}
+
+
+#design3{
+ height: 3em;
+  width: 3em;
+ 
+}
+
+#design4{
+ height: 3em;
+  width: 3em;
+
+}
+
+#design5{
+ height: 3em;
+  width: 3em;
+
+}
+#design6{
+ height: 3em;
+  width: 3em;
+
+}
+
+
+
 }
