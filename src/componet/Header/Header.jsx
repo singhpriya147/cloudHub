@@ -1,4 +1,4 @@
-import { ReactComponent as Logo } from '../../assets/Logo.svg';
+import  logo  from '../../assets/Logo.svg';
 import './Header.css'
 const Header = () => {
   return (
@@ -6,7 +6,7 @@ const Header = () => {
       <nav className='nav-bar'>
         <div className='nav-bar-left'>
           <div className='logo-container'>
-            <Logo />
+            <img src={logo} alt="" />
           </div>
           <ul>
             <li>Product</li>

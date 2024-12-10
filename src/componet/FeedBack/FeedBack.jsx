@@ -4,8 +4,8 @@ import './Feedback.css'
 const Feedback = () => {
   return (
     <div className='feedback-card'>
-      {/* Header Section */}
-      <div className='header'>
+      
+      <div className='feedback-header'>
         <h1>Better feedback at the right time.</h1>
       </div>
 
