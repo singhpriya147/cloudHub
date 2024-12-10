@@ -1,7 +1,7 @@
 
-import './Feedback.css'
+import './FeedBack.css'
 
-const Feedback = () => {
+const FeedBack = () => {
   return (
     <div className='feedback-card'>
       
@@ -9,7 +9,7 @@ const Feedback = () => {
         <h1>Better feedback at the right time.</h1>
       </div>
 
-      {/* Post Section */}
+      
       <div className='post'>
         <div className='post-info'>
           <div className='post-name'>Cloudhub</div>
@@ -21,7 +21,7 @@ const Feedback = () => {
         </div>
       </div>
 
-      {/* Action Buttons */}
+      
       <div className='action-buttons'>
         <div className='action-button'>
           <span>@</span>
@@ -40,4 +40,4 @@ const Feedback = () => {
   );
 };
 
-export default Feedback;
+export default FeedBack;
