@@ -1,0 +1,25 @@
+.header-wrapper{
+ height: 40px;
+ width: 100%;
+ 
+}
+.nav-bar{
+ display: flex;
+ flex-direction: row;
+width: 90%;
+margin: 0 auto;
+padding: 1rem;
+align-items: center;
+justify-content: space-between;
+}
+.nav-bar-left{
+ display: flex;
+ flex-direction: row;
+align-items: center;
+}
+.nav-bar-left ul{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 2rem;
+}
