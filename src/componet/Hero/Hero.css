@@ -31,11 +31,26 @@ max-width: 85%;
   height: 4em;
   width: 4em;
   position: absolute;
-  top: 70%;
+  top: 65%;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.decorative-right{
+
+  width: 50%;
+  height: 100%;
+  position: relative;
+
+}
+
+.decorative-left{
+
+  width: 50%;
+  height: 100%;
+position: relative;
 }
 #design1{
  height: 7em;
@@ -48,6 +63,7 @@ max-width: 85%;
   justify-content: center;
   align-items: center;
   z-index:10;
+    animation: pulseDown 2s infinite ease-in-out;
 }
 
 
@@ -62,6 +78,7 @@ max-width: 85%;
   justify-content: center;
   align-items: center;
    z-index:10;
+    animation: pulse 2s infinite ease-in-out;
 }
 
 
@@ -76,6 +93,7 @@ max-width: 85%;
   justify-content: center;
   align-items: center;
    z-index:10;
+    animation: pulse 2s infinite ease-in-out;
 }
 
 #design4{
@@ -89,6 +107,7 @@ max-width: 85%;
   justify-content: center;
   align-items: center;
    z-index:10;
+    animation: pulse 2s infinite ease-in-out;
 }
 
 #design5{
@@ -102,6 +121,7 @@ max-width: 85%;
   justify-content: center;
   align-items: center;
    z-index:10;
+    animation: pulseDown 2s infinite ease-in-out;
 }
 #design6{
  height: 7em;
@@ -114,6 +134,7 @@ max-width: 85%;
   justify-content: center;
   align-items: center;
    z-index:10;
+    animation: pulse 2s infinite ease-in-out;
 }
 .right{
  width: 50%;
@@ -127,7 +148,7 @@ max-width: 85%;
   left: 0;
  
 }
-@media (max-width:720px) {
+@media (max-width:915px) {
  #Herotext h1{
  font-size: 2em;
  }
@@ -148,14 +169,16 @@ max-width: 85%;
 #design1{
  height: 3em;
   width: 3em;
- 
+ bottom: 3rem;
 }
 
 
 #design2{
  height: 3em;
   width: 3em;
-
+left: 8rem;
+    bottom: 10rem;
+  
 }
 
 
@@ -179,13 +202,30 @@ max-width: 85%;
 #design6{
  height: 3em;
   width: 3em;
+  right: 4rem;
+    bottom: 10rem;
+  
 
+}
+.decorative-right{
+
+  width: 50%;
+  height: 300px;
+  position: relative;
+
+}
+
+.decorative-left{
+
+  width: 50%;
+ height:300px;
+position: relative;
 }
 
 }
 
 
-@media (max-width:320px) {
+@media (max-width:348px) {
  #Herotext h1{
  font-size:1.5em;
  }
@@ -200,11 +240,25 @@ max-width: 85%;
   top:unset
 }
 
+.decorative-right{
+
+  width: 50%;
+  height: 300px;
+  position: relative;
+
+}
+
+.decorative-left{
+
+  width: 50%;
+ height:300px;
+position: relative;
+}
 
 #design1{
  height: 3em;
   width: 3em;
- 
+ bottom: 2rem;
 }
 
 
@@ -240,4 +294,50 @@ max-width: 85%;
 
 
 
+}
+
+
+/* @keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+} */
+
+@keyframes pulse {
+  0% {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(10px);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+}
+
+@keyframes pulseDown {
+  0% {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+  60% {
+    transform: translateY(10px);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
 }
