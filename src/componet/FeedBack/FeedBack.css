@@ -1,13 +1,16 @@
 
 
 .feedback-card {
-  background-color: #c15933;
-
+  background-color: #FB432C;
+overflow: hidden;
   padding: 20px;
   color: #fff;
  width: 100%;
   margin: 20px auto;
   height: 100vh;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .feedback-header {
@@ -17,24 +20,37 @@
 }
 
 .feedback-header h1 {
-  font-size: 24px;
+  font-size: 2.5rem;
   font-weight: bold;
   margin: 0;
-  color:pink;
+  
 }
 
 .post {
   background-color: #333;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+   width: 100%;
+margin:0 auto;
+ }
+.feedback-wrapper{
+ width: 80%;
+ margin: 0 auto;
+ display: flex;
+ gap: 4rem;
+ flex-direction: column;
 }
-
 .post-info {
   display: flex;
   justify-content: space-between;
+
+}
+.post-info-top{
+ display: flex;
+ flex-direction: column;
 }
 
 .post-name {
@@ -59,7 +75,11 @@
   border: none;
   cursor: pointer;
 }
-
+.stacked-img{
+ display: flex;
+ 
+ 
+}
 .view-post-btn:hover {
   background-color: #444;
 }
@@ -67,6 +87,7 @@
 .action-buttons {
   display: flex;
   justify-content: space-between;
+ 
 }
 
 .action-button {
@@ -74,15 +95,17 @@
   align-items: center;
   padding: 10px;
   background-color: #222;
-  border-radius: 10px;
+  border-radius: 20px;
   flex-grow: 1;
   margin: 0 5px;
   cursor: pointer;
+   flex-direction: column;
+   justify-content: flex-start;
 }
 
-.action-button span:first-child {
+/* .action-button span:first-child {
   margin-right: 10px;
-}
+} */
 
 .action-button:hover {
   background-color: #333;
