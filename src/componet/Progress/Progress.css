@@ -1,5 +1,51 @@
 .progress-wrapper{
- height: 100vh;
- width: 100%;
- background-color: azure;
+ /* height: 100vh; */
+max-width: 100%;
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+ align-items: center;
+ justify-content: end;
+ text-align: center;
+ padding: 2rem 1rem;
+}
+.progress-main{
+ display: flex;
+gap: 3rem;
+}
+.card{
+width: 300px; 
+  padding: 20px;
+  border: 0.5px solid #FCFCFC;
+  border-radius: 8px;
+  background-color: #FCFCFC;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.card span {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+h2{
+ font-size: 45px;
+ font-weight: 600;
+ margin: 0;
+}
+.card p {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #666;
+}
+.card img{
+ width: 100%; /* Make the image take the full width of the card */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 150px; /* Set a max height to ensure consistent sizing */
+  object-fit: contain; 
+}
+@media (max-width: 768px) {
+.progress-main{
+ flex-direction: column;
+}
 }
