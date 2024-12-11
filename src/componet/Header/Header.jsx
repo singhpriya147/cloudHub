@@ -41,10 +41,10 @@ const Header = () => {
       </ul>
       <ul className='signin-up'>
         <li className='sign-in' onClick={closeMobileMenu}>
-          <a href='#'>Sign-In</a>
+          <a href='#'>login</a>
         </li>
         <li onClick={closeMobileMenu}>
-          <button>Sign-Up</button>
+          <button>Start for free</button>
         </li>
       </ul>
       <div className='mobile-menu' onClick={handleClick}>

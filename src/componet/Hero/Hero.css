@@ -31,7 +31,7 @@ max-width: 85%;
   height: 4em;
   width: 4em;
   position: absolute;
-  top: 65%;
+  top: 62%;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -162,7 +162,7 @@ position: relative;
  #middle{
   height: 2em;
   width: 2em;
-  top:unset
+ top:19rem
 }
 
 
@@ -237,7 +237,7 @@ position: relative;
   #middle{
   height: 2em;
   width: 2em;
-  top:unset
+   top:19rem
 }
 
 .decorative-right{

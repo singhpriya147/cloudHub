@@ -7,7 +7,6 @@ import person2 from '../../assets/persons/person2.png';
 const Testimonial = () => {
   return (
     <section className='testimonial'>
-      
       <div className='review'>
         <img src={reviewIcon1} alt='' className='brand' />
         <p>
@@ -17,10 +16,10 @@ const Testimonial = () => {
           visibility on whats transpiring across various teams — impeccably
           aligning with our pre-existing procedures.
         </p>
-        <div>
+        <div className='review-footer'>
           <img src={person1} alt='' />
-          <div>
-            <p>Gabriel Valdivia</p>
+          <div className='person-info'>
+            <h3>Gabriel Valdivia</h3>
             <p>Principal Product Designer, Patreon</p>
           </div>
         </div>
@@ -36,10 +35,10 @@ const Testimonial = () => {
           accelerated our propensity for early-stage feedback beyond my
           expectations.
         </p>
-        <div>
+        <div className='review-footer'>
           <img src={person2} alt='' />
-          <div>
-            <p>Gabriel Valdivia</p>
+          <div className='person-info'>
+            <h3>Gabriel Valdivia</h3>
             <p>Principal Product Designer, Patreon</p>
           </div>
         </div>
