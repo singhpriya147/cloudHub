@@ -1,0 +1,39 @@
+.footer-wrapper
+{
+ height:auto;
+
+ width: 80%;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+overflow: hidden;
+}
+.footer-upper{
+ display: flex;
+ flex-direction: row;
+ /* align-items: center; */
+ justify-content: space-between;
+}
+hr{
+  border: none; /* Remove default border */
+            height: 1.5px; /* Set line thickness */
+            background-color: #484848; /* Set line color */
+            width: 100%; /* Set line width */
+            margin: 15px auto; /* Add spacing and center align */
+}
+.footer-wrapper p{
+ line-height: 0.8rem;
+}
+.logo-icon img{
+  height: 50px;
+  width: 50px;
+}
+@media (max-width:720px) {
+ /* .footer-wrapper{
+  flex-direction: column;
+ } */
+  .footer-upper{
+   flex-wrap: wrap;
+  }
+}
