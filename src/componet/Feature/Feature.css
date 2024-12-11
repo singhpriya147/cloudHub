@@ -26,9 +26,15 @@ flex-direction: column;
 }
 .badge{
 background-image: linear-gradient(to right, #FB432C, #FF591E);
-padding: 0.8rem;
 
-border-radius: 25px;
+  border-radius: 25px;
+  display: inline-flex;
+  width: 75px;
+
+  border-radius: 25px;
+  padding: 0.5rem;
+  text-align: center;
+  justify-content: center;
 }
 /* Description paragraph styles */
 .description {
@@ -93,6 +99,9 @@ gap:2rem
 .feedback-section-left{
   width: 50%;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .code-block-container{
