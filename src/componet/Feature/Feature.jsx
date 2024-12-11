@@ -1,12 +1,12 @@
 
 import codeImage from '../../assets/codeBlock.svg';
 import feedbackImg from '../../assets/FeedBackCard.svg';
-import './Feature.css'; 
+import './Feature.css';
+import check from '../../assets/Check.svg'; 
 
 const Feature = () => {
   return (
     <div className='container'>
-     
       <div className='share-section'>
         <div className='share-section-left'>
           <sapn className='badge'>Share</sapn>
@@ -17,26 +17,39 @@ const Feature = () => {
             down. It’s also one of the only channels where.
           </p>
           <div className='features'>
-            <span className='feature'>✔ Coded</span>
-            <span className='feature'>✔ 100% Secure</span>
+            <div className='feature'>
+              <div className='check'>
+                <img src={check} alt='' />
+              </div>
+              <div>Coded</div>
+            </div>
+            <div className='feature'>
+              <div className='check'>
+                <img src={check} alt='' />
+              </div>
+              <div>100% Secure</div>
+            </div>
           </div>
           <a href='#' className='link'>
             See how it works
           </a>
         </div>
         <div className='code-block-container'>
-         
           <div style={{ backgroundColor: '#FAFAFA', borderRadius: '20px' }}>
             <img
               src={codeImage}
               alt=''
-              style={{ borderRadius: '25px', height: '100%', width: '100%' ,objectFit:'contain'}}
+              style={{
+                borderRadius: '25px',
+                height: '100%',
+                width: '100%',
+                objectFit: 'contain',
+              }}
             />
           </div>
         </div>
       </div>
 
-   
       <div className='feedback-section'>
         <div className='feedback-section-left'>
           <sapn className='badge'>Feedback</sapn>
@@ -51,7 +64,11 @@ const Feature = () => {
           </a>
         </div>
         <div style={{ backgroundColor: '#FAFAFA', borderRadius: '20px' }}>
-          <img src={feedbackImg} alt='' style={{height:'100%', width:'100%',objectFit:'contain'}} />
+          <img
+            src={feedbackImg}
+            alt=''
+            style={{ height: '100%', width: '100%', objectFit: 'contain' }}
+          />
         </div>
       </div>
     </div>
