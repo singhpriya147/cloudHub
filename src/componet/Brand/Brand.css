@@ -3,6 +3,9 @@
  gap: 2rem;
  width: 80%;
  margin: 0 auto;
+  /* max-width: 100vh; */
+  background-color: aquamarine;
+  /* min-width: 300px; */
 }
 .logo-container{
  
@@ -10,10 +13,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden; /
+
+  /* max-width: 100px; */
 }
 .logo-container img{
   width: 100%; 
   height: auto ;
   object-fit: contain; 
 }
+

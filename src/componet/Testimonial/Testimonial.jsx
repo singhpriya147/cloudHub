@@ -7,6 +7,7 @@ import person2 from '../../assets/persons/person2.png';
 const Testimonial = () => {
   return (
     <section className='testimonial'>
+      
       <div className='review'>
         <img src={reviewIcon1} alt='' className='brand' />
         <p>

@@ -11,6 +11,7 @@ import logo7 from '../../assets/logos/logo7.svg';
 
 const Brand = () => {
   return (
+    
     <div className='brand-wrapper'>
       <div className='logo-container'>
         <img src={logo1} alt='' />

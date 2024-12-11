@@ -6,8 +6,9 @@ overflow: hidden;
   padding: 20px;
   color: #fff;
  width: 100%;
-  margin: 20px auto;
-  height: 100vh;
+  /* margin: 20px auto; */
+  /* height: 100vh; */
+
   gap: 2rem;
   display: flex;
   flex-direction: column;
@@ -38,7 +39,7 @@ margin:0 auto;
  }
 .feedback-wrapper{
  width: 80%;
- margin: 0 auto;
+
  display: flex;
  gap: 4rem;
  flex-direction: column;
@@ -109,4 +110,14 @@ margin:0 auto;
 
 .action-button:hover {
   background-color: #333;
+}
+
+@media (max-width: 768px) {
+.action-buttons{
+  flex-direction: column;
+  gap:2rem;
+}
+.feedback-header{
+  text-align:left;
+}
 }

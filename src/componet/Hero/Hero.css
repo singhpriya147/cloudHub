@@ -225,7 +225,7 @@ position: relative;
 }
 
 
-@media (max-width:348px) {
+@media (max-width:500px) {
  #Herotext h1{
  font-size:1.5em;
  }
@@ -245,7 +245,7 @@ position: relative;
   width: 50%;
   height: 300px;
   position: relative;
-
+/* background-color: aqua; */
 }
 
 .decorative-left{
@@ -253,38 +253,44 @@ position: relative;
   width: 50%;
  height:300px;
 position: relative;
+/* background-color: bisque; */
 }
 
 #design1{
  height: 3em;
   width: 3em;
  bottom: 2rem;
+ left:1rem;
 }
 
 
 #design2{
  height: 3em;
   width: 3em;
-
+bottom: 5rem;
+left:4rem;
 }
 
 
 #design3{
  height: 3em;
   width: 3em;
- 
+ bottom: 8rem;
+ left:4rem;
 }
 
 #design4{
  height: 3em;
   width: 3em;
-
+right: 2rem;
+bottom: 5rem;
 }
 
 #design5{
  height: 3em;
   width: 3em;
-
+right: 1rem;
+bottom: 8rem;
 }
 #design6{
  height: 3em;
