@@ -26,13 +26,13 @@ const Header = () => {
         <li className='option' onClick={closeMobileMenu}>
           <a href='#'>Shop</a>
         </li>
-        <li className='option mobile-option' onClick={closeMobileMenu}>
+        <li className='option' onClick={closeMobileMenu}>
           <a href='#'>Pages</a>
         </li>
         <li className='option' onClick={closeMobileMenu}>
           <a href='#'>Integrations</a>
         </li>
-        <li className='option mobile-option' onClick={closeMobileMenu}>
+        <li className='option ' onClick={closeMobileMenu}>
           <a href='#'>Developers</a>
         </li>
         <li className='option mobile-option' onClick={closeMobileMenu}>
